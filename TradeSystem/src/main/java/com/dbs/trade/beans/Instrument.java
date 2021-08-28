@@ -13,7 +13,7 @@ public class Instrument {
 	@Column(nullable=false)
 	private String instrumentName;
 	private LocalDate expiryDate;
-	@Column(nullable=false)
+	//@Column(nullable=false)
 	private double faceValue;
 	
 	public Instrument() {
